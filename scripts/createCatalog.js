@@ -7,8 +7,8 @@ const stripe = require('stripe')(process.env.GATSBY_STRIPE_SECRET_KEY)
 
 stripe.setMaxNetworkRetries(2)
 
-const deleteAllSkus = require('./lib/deleteAllSkus')
-const deleteAllProducts = require('./lib/deleteAllProducts')
+// const deleteAllSkus = require('./lib/deleteAllSkus')
+// const deleteAllProducts = require('./lib/deleteAllProducts')
 const createProduct = require('./lib/createProduct')
 
 const products = require('./products')
@@ -20,8 +20,8 @@ const createCatalog = async () => {
   console.log('')
 
   try {
-    await deleteAllSkus({ stripe })
-    await deleteAllProducts({ stripe })
+    // await deleteAllSkus({ stripe })
+    // await deleteAllProducts({ stripe })
 
     // eslint-disable-next-line no-plusplus
     for (let index = 0; index <= products.length; index++) {
