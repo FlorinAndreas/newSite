@@ -1,25 +1,24 @@
-import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Container from '@material-ui/core/Container'
+import Logo from 'components/elements/Logo/Logo'
+import { useThemeContext } from 'context/ThemeContext'
+import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { useThemeContext } from 'context/ThemeContext'
-import Logo from 'components/elements/Logo/Logo'
-
 import Cart from './Cart'
-import { Toolbar, LogoWrapper } from './Header.styles'
-import NavigationMobile from './NavigationMobile'
+import { LogoWrapper, Toolbar } from './Header.styles'
 import NavigationDesktop from './NavigationDesktop'
+import NavigationMobile from './NavigationMobile'
 
 export default function Header() {
   const { t } = useTranslation()
   const { isMobile } = useThemeContext()
 
   const navigationItems = [
-    { slug: 'women', name: t('Women') },
-    { slug: 'men', name: t('Men') },
-    { slug: 'kids', name: t('Kids') },
-    { slug: 'babies', name: t('Babies') },
+    { slug: 'women', name: t('Wildflower_Honey') },
+    { slug: 'men', name: t('Linden_Honey') },
+    { slug: 'kids', name: t('Eucalyptus_Honey') },
+    { slug: 'babies', name: t('Acacia_Honey') },
   ]
 
   return (

@@ -1,7 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
 import Image from 'components/foundations/Image/Image'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 import { Background } from './ImageLocal.styles'
 

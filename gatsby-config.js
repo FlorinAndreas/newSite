@@ -9,9 +9,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Dindim',
-    description: 'Stripe storefront starter for Gatsby',
-    author: 'Lorenzo García Moreno <dev@lorenzogm.com>',
+    title: 'Honey Source',
+    description: 'E-commerce website to sell everything about honey',
+    author: 'Florin Andreas',
   },
   plugins: [
     'gatsby-plugin-eslint',

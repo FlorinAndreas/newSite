@@ -16,7 +16,11 @@
   "Total": "Total",
   "Total (VAT Included)": "Total (VAT Included)",
   "VAT Included": "VAT Included",
-  "Women": "Women",
+  "Wildflower_Honey": "Wildflower",
+  "Eucalyptus_Honey": "Eucalyptus",
+  "Acacia_Honey": "Acacia",
+  "Linden_Honey": "Linden",
+
   "Your cart": "Your cart",
   "{{ cartSkuQuantity }} items": "{{ cartSkuQuantity }} items"
 }

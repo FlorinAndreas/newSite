@@ -1,6 +1,7 @@
 const categories = require('../../../../src/constants/categories')
 const colors = require('../../../../src/constants/colors')
 const sizes = require('../../../../src/constants/sizes')
+const honeyflor = require('../../../../src/assets/images/alexander-mils-nesUgwNX3u4-unsplash.jpg')
 
 const defaultSizes = [
   {
@@ -28,7 +29,7 @@ const defaultSizes = [
 const skus = [
   {
     color: colors.GREY_MELANGE,
-    image: 'https://i.imgur.com/fY5BCzS.png',
+    image: honeyflor,
     sizes: defaultSizes,
   },
   {
